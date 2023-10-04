@@ -10,6 +10,6 @@ weather_parameters = {
     'lang': 'ru'
 
 }
-
+# этот комментарий для гита
 response = requests.get(url, params=weather_parameters)  
 print(response.text)
