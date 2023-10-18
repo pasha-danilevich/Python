@@ -5,13 +5,14 @@
 
 # My solution
 
-number = 8
+number = 4
 
 
 def factorial(number):
     result = 1
     for i in range(1, number):
         result += i * result
+        print(f'Внутри цикла: {i}')
     return result
         
 print(factorial(number))
@@ -24,15 +25,15 @@ def fact(x):
     else:
         return fact(x - 1) * x
     
-print(fact(8))
+print(fact(4))
 
 
-mylist = (x*x for x in range(3))
-for i in mylist :
-    print(i)
+# mylist = (x*x for x in range(3))
+# for i in mylist :
+#     print(i)
     
     
-for i in mylist :
-    print(i)
+# for i in mylist :
+#     print(i)
 
         
